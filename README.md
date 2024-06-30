@@ -25,18 +25,35 @@ This project is a fully-featured blogging platform built with PHP Laravel.
 
 - Install dependencies:
 
-```laravel
+```
 composer install
 npm install
 ```
-  
-- User Name: admin
+
+- Create a copy of the .env file:
+
+```
+cp .env.example .env
+```
+
+- Generate an application key:
+
+```
+php artisan key:generate
+```
+
+- Start the local development server:
+
+```
+php artisan serve
+```
+
+- Login Mail: admin@gmail.com
 - Password: 12345
 
 ## TECHNOLOGY :
 
 - PHP
-- OOP
 - LARAVEL
 - MySql
 - JAVASCRIPT
