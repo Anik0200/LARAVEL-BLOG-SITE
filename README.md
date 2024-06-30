@@ -25,7 +25,7 @@ This project is a fully-featured blogging platform built with PHP Laravel.
 
 - Install dependencies:
 
-```
+```laravel
 composer install
 npm install
 ```
