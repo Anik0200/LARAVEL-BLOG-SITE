@@ -60,6 +60,8 @@ npm run dev
 - Before Login:
 
 ```
+php artisan migrate:fresh
+
 php artisan db:seed
 ```
 
