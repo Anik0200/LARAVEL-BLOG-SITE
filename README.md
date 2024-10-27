@@ -56,7 +56,7 @@ php artisan serve
 
 
 ```
-php artisan serve
+php artisan db:seed
 ```
 
 - Login Mail: admin@gmail.com
