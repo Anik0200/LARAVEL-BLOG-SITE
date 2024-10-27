@@ -27,6 +27,7 @@ This project is a fully-featured blogging platform built with PHP Laravel.
 
 ```
 composer install
+
 npm install
 ```
 
@@ -52,6 +53,14 @@ php artisan storage:link
 
 ```
 php artisan serve
+
+npm run dev
+```
+
+- Before Login:
+
+```
+php artisan db:seed
 ```
 
 - Login Mail: admin@gmail.com
