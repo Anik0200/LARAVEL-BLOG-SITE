@@ -29,6 +29,8 @@ This project is a fully-featured blogging platform built with PHP Laravel.
 composer install
 
 npm install
+
+npm run dev
 ```
 
 - Create a copy of the .env file:
@@ -49,20 +51,18 @@ php artisan key:generate
 php artisan storage:link
 ```
 
+- Seed Database:
+
+```
+php artisan migrate:fresh --seed
+```
+
 - Start the local development server:
 
 ```
 php artisan serve
 
 npm run dev
-```
-
-- Before Login:
-
-```
-php artisan migrate:fresh
-
-php artisan db:seed
 ```
 
 - Login Mail: admin@gmail.com
