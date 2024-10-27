@@ -54,6 +54,11 @@ php artisan storage:link
 php artisan serve
 ```
 
+
+```
+php artisan serve
+```
+
 - Login Mail: admin@gmail.com
 - Password: 12345
 
