@@ -54,6 +54,7 @@ php artisan storage:link
 php artisan serve
 ```
 
+- Before Login:
 
 ```
 php artisan db:seed
