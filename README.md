@@ -61,8 +61,6 @@ php artisan migrate:fresh --seed
 
 ```
 php artisan serve
-
-npm run dev
 ```
 
 - Login Mail: admin@gmail.com
